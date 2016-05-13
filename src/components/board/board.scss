@@ -1,0 +1,102 @@
+.game-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    background: rgb(255, 248, 230);
+    .timer-clock {
+        text-align: center;
+    }
+    .play-stats {
+        display: flex;
+        font-size: 20px;
+        color: green;
+        font-weight: 500;
+        margin-bottom: 15px;
+        .high-score {
+            margin-right: 50px;
+        }
+    }
+    .circle {
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 1px;
+        width: 130px;
+        height: 130px;
+        color: rgba(76, 175, 79, 0.62);
+        border-color: orange;
+        animation: mymove 1s 5;
+        .center-text {
+            display: block;
+            margin-top: 25%;
+            font-size: 55px;
+        }
+    }
+    .drop-box-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        .drop-box {
+            width: 90px;
+            height: 60px;
+            border: solid;
+            border-width: 1px;
+            margin: 40px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 40px;
+            border-color: #03e9f4;
+            .text-box {
+                display: flex;
+                cursor: pointer;
+                justify-content: center;
+                align-items: center;
+                padding-top: 10px;
+                color: rgba(0, 39, 128, 0.96);
+                text-shadow: 5px 7px 24px rgba(156, 156, 156, 0.22);
+            }
+        }
+    }
+    .compute {
+        border-style: solid;
+        cursor: pointer;
+        padding: 10px;
+        font-weight: 800;
+        color: rgb(100, 76, 175);
+        border-color: #337E3C;
+        font-style: initial;
+        border-width: 1px;
+    }
+}
+.options {
+    margin: 50px;
+    .timerButton {
+        cursor: pointer;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #644caf;
+        /* text-align: center; */
+        border-style: solid;
+        border-color: #337E3C;
+        font-style: initial;
+        border-width: 1px;
+        margin-right: 30px;
+    }
+    .howtoplay {
+        cursor: pointer;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #644caf;
+        /* text-align: center; */
+        border-style: solid;
+        border-color: #337E3C;
+        font-style: initial;
+        border-width: 1px;
+    }
+}
+.bold-text {
+    color: #42687A;
+    font-weight: 500;
+}

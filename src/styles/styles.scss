@@ -1,0 +1,14 @@
+@import '../containers/game.scss';
+@import '../components/board/board.scss';
+@import '../components/modal/modal.scss';
+
+
+body {
+     -webkit-user-select: none;
+     font-family: 'Roboto';
+     display: flex;
+     height: 100%;
+     align-items: center;
+     justify-content: center;
+     background: rgba(255, 193, 7, 0.1);
+}
